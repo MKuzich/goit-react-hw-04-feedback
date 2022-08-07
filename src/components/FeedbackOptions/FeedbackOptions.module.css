@@ -1,0 +1,21 @@
+.btn {
+  border-color: transparent;
+  background-color: #535eaa;
+  color: #e2e6fa;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #434d8d;
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+}
+
+.item:not(:last-child) {
+  margin-right: 16px;
+}
